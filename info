@@ -1,0 +1,15 @@
+x= X/L
+tau=th/(mL^2)
+N=100
+
+Y(x,tau)=Ykr+iYk
+
+war poczatkowe
+Ykr=sqrt(2)(npi-xk)
+Yk=0
+
+dYkrtau/dtau=Hk(tau)
+dYk/dtau=-Hkr(tau)
+H0r=Hrn=H0=Hn=0
+
+Hkr=HYr(xk)=-1/2 (Yr(k+1)+Yr(k-1)-2Ykr)/deltax^2 +k(x1-1/2)Ykr sin(omegatau)
